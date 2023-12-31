@@ -36,7 +36,7 @@ function createNoteElement(id, content){
     //Setting the properties of the textarea element
     element.classList.add('note');
     element.style.backgroundColor = bgColor;
-    element.style.boxShadow = '0px 0px 2px rgb(52, 180, 235)';
+    element.style.boxShadow = '0px 0px 2px rgb(52, 180, 238)';
     element.value = content;
     element.placeholder = "Enter something";
 
